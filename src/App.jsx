@@ -3,11 +3,28 @@ import { useEffect, useRef, useState } from 'react'
 import './App.css'
 
 const sentences = [
-  "Coding bhut achi hoti h.",
-  "hum bhut jayada ache h",
-  "react ek bhut he achi library h",
-  "Typing fast is a useful skill."
-]
+  "Coding is a powerful skill in the modern world.",
+  "React makes building user interfaces easier.",
+  "Practice typing every day to improve speed.",
+  "JavaScript is the language of the web.",
+  "Vite provides fast and optimized builds.",
+  "Always keep learning to grow your skills.",
+  "The quick brown fox jumps over the lazy dog.",
+  "Typing fast requires both speed and accuracy.",
+  "Render is a great platform for hosting web apps.",
+  "Focus and consistency lead to improvement.",
+  "Clean code is easy to understand and maintain.",
+  "Debugging is an essential skill for developers.",
+  "Frontend development is both fun and challenging.",
+  "Set clear goals and work hard to achieve them.",
+  "Technology is changing the world rapidly.",
+  "Stay curious and keep experimenting with code.",
+  "Building projects helps you learn faster.",
+  "Version control with Git is very important.",
+  "User experience matters in every application.",
+  "Believe in yourself and never give up."
+];
+
 function App() {
   const [text, setText] = useState("");
   const [input, setInput] = useState("");

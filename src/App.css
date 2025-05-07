@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.container{
+  height: 530px;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border: 10px solid black;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.timer{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+.box{
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 auto 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #3f3b3b;
+}
+.quote{
+  font-size: 28px;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  text-align: center;
+  min-height: 60px;
+  line-height: 1.6;
+  align-self: center;
+}
+.correct{
+  color: rgb(0, 128, 0);
+}
+.incorrect{
+  color: red;
+}
+
+.input{
+  width: 100%;
+  height: 100px;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 4px solid #aaa;
+  border-radius: 10px;
+  resize: none;
+}
+.result {
+  margin-top: 10px;
+}
+.result p{
+  font-weight: bold;
+  font-size: 20px;
+}
+.result button{
+  height: 40px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff0026f0;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.result button:hover{
+  background-color: #ff0026;
+}
+.instruction{
+  background-color: #777;
+  font-size: 16px;
+}
+.History{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 5px #3a3333;
+}
+.History h3{
+  margin-bottom: 10px;
+}
